@@ -1,0 +1,40 @@
+*{
+    margin: 0;  padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{   background: #191919;   }
+
+#wrapper h1{  text-align: center;  }
+#wrapper label{  font-weight: bold;  }
+#wrapper {
+    width: 30%;
+    margin: 50px auto;
+    padding: 50px;
+    background: white;/*D7FBFF*/
+}
+
+form {  margin: 30px auto;  }
+
+.textInput {
+    border: none;
+    height: 28px;
+    margin: 2px;
+    border: 1px solid #6B7363;
+    font-size: 1.2em;
+    padding: 5px;
+    width: 95%;
+}
+
+.textInput:focus {    outline: none;  }
+
+.btn {
+    width: 98.6%;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+}
